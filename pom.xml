@@ -8,14 +8,6 @@
     <artifactId>jenkins-sonarqube-demo</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-         
-    <distributionManagement>
-    <repository>
-        <id>nexus-releases</id>
-        <name>Nexus Releases</name>
-        <url>http://13.207.28.218:8081/repository/maven-releases/</url>
-    </repository>
-    </distributionManagement>
 
     <name>Jenkins SonarQube Maven Demo</name>
     <description>Simple Maven project for Jenkins and SonarQube integration</description>
