@@ -11,6 +11,15 @@
 
     <name>Jenkins SonarQube Maven Demo</name>
     <description>Simple Maven project for Jenkins and SonarQube integration</description>
+    <distributionManagement>
+
+    <repository>
+        <id>nexus-releases</id>
+        <name>maven-releases</name>
+        <url>http://13.207.28.218:8081/repository/maven-releases/</url>
+    </repository>
+
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
